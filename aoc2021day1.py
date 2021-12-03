@@ -17,7 +17,7 @@ currollsum=0
 oldrollsum=None
 up3s = 0
 
-with open("day1_1_input.txt", "r") as inputf:
+with open("data/day1_input.txt", "r") as inputf:
   for value in inputf:
     #implied line read. read() will grab the whole file
     total += 1
