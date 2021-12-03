@@ -4,6 +4,9 @@
 #part 1: each of the lines in your input is a binary number. Process the data by byte position (column)
 #for each column, set the same column in "gamma" to the predominant value in that column in the data. "epsilon" 
 #will get the opposite value. Convert "gamma" and "epsilon" to decimal, multiply them, and return the result. 
+#part 1: for life support, find 2 more numbers. The "oxygen" level is the number from the input that shares the most
+#common bit value for each column starting from the largest. "CO2" shares the values of the least common bit value
+#for each. Convert these to decimal, multiply them, and return the result. 
 
 from typing import ValuesView
 
